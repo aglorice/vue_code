@@ -10,7 +10,18 @@
 </head>
 <body>
     <script>
-        console.log(Vue)
+        const vm = new Vue({
+            data(){
+                return{
+                    name:'234',
+                    sb:{
+                        asd:'q34132'
+                    },
+                    hobby:['eat','drank',{a:'123123'}]
+                }
+            }
+        })
+        console.log(vm)
     </script>
 </body>
 </html>
